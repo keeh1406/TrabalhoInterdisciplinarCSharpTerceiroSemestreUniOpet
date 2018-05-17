@@ -1,0 +1,41 @@
+﻿@model	IEnumerable<Aula1.Models.Venda>
+<div class="panel	panel-primary">
+    <div class="panel-heading">
+        Relação	de Produtos registrados para as Vendas
+    </div>
+    <div class="panel-body">
+        <table class="table	table-striped	table-hover">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Produto.Loja.Name)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Cliente.Name)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.DataVenda)
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Produto.Loja.Name)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Cliente.Name)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.DataVenda)
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <div class="panel-footer	panel-info">
+    </div>
+</div>

@@ -1,0 +1,81 @@
+﻿@model Aula1.Models.Venda
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Visualizando detalhes de uma Venda";
+}
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        Visualizando detalhes de uma Venda
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.DescricaoVenda)
+        <br />
+        <div class="input-group">
+            <span class="input-group-addon">
+                <i class="glyphicon glyphicon-user"></i>
+            </span>
+            @Html.EditorFor(model => model.DescricaoVenda, new { htmlAttributes = new { @class = "form-control", disabled = "disabled" } })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.QuantidadeProduto)
+        <br />
+        <div class="input-group">
+            <span class="input-group-addon">
+                <i class="glyphicon glyphicon-user"></i>
+            </span>
+            @Html.EditorFor(model => model.QuantidadeProduto, new { htmlAttributes = new { @class = "form-control", disabled = "disabled" } })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.Valor)
+        <br />
+        <div class="input-group">
+            <span class="input-group-addon">
+                <i class="glyphicon glyphicon-user"></i>
+            </span>
+            @Html.EditorFor(model => model.Valor, new { htmlAttributes = new { @class = "form-control", disabled = "disabled" } })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.DataVenda)
+        <br />
+        <div class="input-group">
+            <span class="input-group-addon">
+                <i class="glyphicon glyphicon-user"></i>
+            </span>
+            @Html.EditorFor(model => model.DataVenda, new { htmlAttributes = new { @class = "form-control", disabled = "disabled" } })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.Produto.Name)<br />
+        <div class="input-group">
+            <span class="input-group-addon">
+                <i class="glyphicon	glyphicon-user"></i>
+            </span>
+            @Html.EditorFor(model => model.Produto.Name, new { htmlAttributes = new { @class = "form-control", disabled = "disabled" } })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.Cliente.Name)<br />
+        <div class="input-group">
+            <span class="input-group-addon">
+                <i class="glyphicon	glyphicon-user"></i>
+            </span>
+            @Html.EditorFor(model => model.Cliente.Name, new { htmlAttributes = new { @class = "form-control", disabled = "disabled" } })
+        </div>
+    </div>
+    <div class="panel-footer panel-info">
+        @Html.ActionLink("Alterar", "Edit", new { id = Model.ProdutoId }, new { @class = "btn btn-info" })
+        @Html.ActionLink("Retornar para a listagem", "Index", null, new { @class = "btn btn-info" })
+    </div>
+</div>
+@section	ScriptPage	{
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('li').removeClass("active");
+            $('#liVendas').addClass("active");
+        });
+    </script>
+}
