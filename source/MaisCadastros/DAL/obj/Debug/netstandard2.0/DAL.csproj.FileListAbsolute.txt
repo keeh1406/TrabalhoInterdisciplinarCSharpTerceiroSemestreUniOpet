@@ -1,0 +1,9 @@
+c:\users\opet\source\repos\MaisCadastros\DAL\bin\Debug\netstandard2.0\DAL.deps.json
+c:\users\opet\source\repos\MaisCadastros\DAL\bin\Debug\netstandard2.0\DAL.dll
+c:\users\opet\source\repos\MaisCadastros\DAL\obj\Debug\netstandard2.0\DAL.csprojResolveAssemblyReference.cache
+c:\users\opet\source\repos\MaisCadastros\DAL\obj\Debug\netstandard2.0\DAL.csproj.CoreCompileInputs.cache
+c:\users\opet\source\repos\MaisCadastros\DAL\obj\Debug\netstandard2.0\DAL.AssemblyInfoInputs.cache
+c:\users\opet\source\repos\MaisCadastros\DAL\obj\Debug\netstandard2.0\DAL.AssemblyInfo.cs
+c:\users\opet\source\repos\MaisCadastros\DAL\bin\Debug\netstandard2.0\DAL.pdb
+c:\users\opet\source\repos\MaisCadastros\DAL\obj\Debug\netstandard2.0\DAL.dll
+c:\users\opet\source\repos\MaisCadastros\DAL\obj\Debug\netstandard2.0\DAL.pdb

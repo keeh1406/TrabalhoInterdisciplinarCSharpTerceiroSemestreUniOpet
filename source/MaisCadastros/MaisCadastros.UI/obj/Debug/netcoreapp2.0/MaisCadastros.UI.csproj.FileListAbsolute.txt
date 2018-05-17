@@ -1,0 +1,14 @@
+c:\users\opet\source\repos\MaisCadastros\MaisCadastros.UI\bin\Debug\netcoreapp2.0\MaisCadastros.UI.deps.json
+c:\users\opet\source\repos\MaisCadastros\MaisCadastros.UI\bin\Debug\netcoreapp2.0\MaisCadastros.UI.runtimeconfig.json
+c:\users\opet\source\repos\MaisCadastros\MaisCadastros.UI\bin\Debug\netcoreapp2.0\MaisCadastros.UI.runtimeconfig.dev.json
+c:\users\opet\source\repos\MaisCadastros\MaisCadastros.UI\bin\Debug\netcoreapp2.0\MaisCadastros.UI.dll
+c:\users\opet\source\repos\MaisCadastros\MaisCadastros.UI\obj\Debug\netcoreapp2.0\MaisCadastros.UI.csprojResolveAssemblyReference.cache
+c:\users\opet\source\repos\MaisCadastros\MaisCadastros.UI\obj\Debug\netcoreapp2.0\MaisCadastros.UI.csproj.CoreCompileInputs.cache
+c:\users\opet\source\repos\MaisCadastros\MaisCadastros.UI\obj\Debug\netcoreapp2.0\MaisCadastros.UI.AssemblyInfoInputs.cache
+c:\users\opet\source\repos\MaisCadastros\MaisCadastros.UI\obj\Debug\netcoreapp2.0\MaisCadastros.UI.AssemblyInfo.cs
+c:\users\opet\source\repos\MaisCadastros\MaisCadastros.UI\bin\Debug\netcoreapp2.0\MaisCadastros.UI.pdb
+c:\users\opet\source\repos\MaisCadastros\MaisCadastros.UI\bin\Debug\netcoreapp2.0\DAL.dll
+c:\users\opet\source\repos\MaisCadastros\MaisCadastros.UI\bin\Debug\netcoreapp2.0\DAL.pdb
+c:\users\opet\source\repos\MaisCadastros\MaisCadastros.UI\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+c:\users\opet\source\repos\MaisCadastros\MaisCadastros.UI\obj\Debug\netcoreapp2.0\MaisCadastros.UI.dll
+c:\users\opet\source\repos\MaisCadastros\MaisCadastros.UI\obj\Debug\netcoreapp2.0\MaisCadastros.UI.pdb
